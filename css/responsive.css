@@ -17,6 +17,21 @@
   overflow-x: auto;
 }
 
+@media screen and (max-width: 470px) {
+  footer {
+    font-size: 20px;
+  }
+  .footer-text {
+    display: none;
+  }
+  .snippet__thumbnail {
+    display: none;
+  }
+  .team-loc {
+    display: none;
+  }
+}
+
 @media screen and (max-width: 620px) {
   .header__logo {
     height: 48px;
@@ -65,21 +80,6 @@
   .social a {
     padding-left: 0px;
     padding-right: 0px;
-  }
-}
-
-@media screen and (max-width: 470px) {
-  footer {
-    font-size: 20px;
-  }
-  .footer-text {
-    display: none;
-  }
-  .snippet__thumbnail {
-    display: none;
-  }
-  .team-loc {
-    display: none;
   }
 }
 
@@ -142,6 +142,9 @@
   footer {
     font-size: 16px;
   }
+  body {
+    font-size: 14px;
+  }
 }
 
 @media screen and (min-width: 825px) {
@@ -186,6 +189,9 @@
     font-size: 16px;
   }
   .social {
+    font-size: 16px;
+  }
+  body {
     font-size: 16px;
   }
 }
